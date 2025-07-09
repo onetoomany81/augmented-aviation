@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Augmented Aviation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0b111d;
+      color: #ffffff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background-color: #0b111d;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #00f0ff;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem 3rem;
+    }
+    .hero h1 {
+      font-size: 2.75rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      max-width: 650px;
+      margin: 1.5rem auto;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #ccd6f6;
+    }
+    .cta {
+      background-color: #00f0ff;
+      color: #0b111d;
+      padding: 0.75rem 1.75rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1.5rem;
+    }
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 3rem 2rem;
+      background-color: #0f1626;
+    }
+    .feature {
+      flex: 1 1 200px;
+      max-width: 250px;
+      text-align: center;
+    }
+    .feature h3 {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      color: #00f0ff;
+    }
+    .feature p {
+      font-size: 0.95rem;
+      color: #cbd5e1;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #7f8fa6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Augmented Aviation</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Elevate Training.<br />Enhance Safety.<br />Fly Smarter.</h1>
+    <button class="cta">Join the Beta</button>
+    <p>Augmented Aviation empowers Cirrus pilots and student aviators with AI-driven tools for smarter, safer flight training. From performance planning to ATC mastery, our intelligent copilot is built to elevate your training at every phase.</p>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature">
+      <h3>Flight Planning</h3>
+      <p>Get smart weight & balance and performance calculations tailored to your aircraft and environment.</p>
+    </div>
+    <div class="feature">
+      <h3>ATC Communication</h3>
+      <p>Practice real-world radio calls with our AI ATC simulator and phraseology coach.</p>
+    </div>
+    <div class="feature">
+      <h3>Weather Support</h3>
+      <p>Interpret METARs, TAFs, and radar with assistance for go/no-go decision-making.</p>
+    </div>
+    <div class="feature">
+      <h3>FAA Prep</h3>
+      <p>Reinforce your knowledge with test-style Q&A support and real-time AI explanations.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Augmented Aviation, LLC. All rights reserved.
+  </footer>
+</body>
+</html>
