@@ -19,12 +19,8 @@
       padding: 1.5rem 2rem;
       background-color: #0b111d;
     }
-    .logo {
-      display: flex;
-      align-items: center;
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #00f0ff;
+    .logo img {
+      height: 40px;
     }
     nav a {
       color: white;
@@ -72,6 +68,10 @@
       max-width: 250px;
       text-align: center;
     }
+    .feature img {
+      width: 64px;
+      height: 64px;
+    }
     .feature h3 {
       font-size: 1.2rem;
       margin-top: 1rem;
@@ -91,7 +91,9 @@
 </head>
 <body>
   <header>
-    <div class="logo">Augmented Aviation</div>
+    <div class="logo">
+      <img src="assets/logo_augmented_aviation.png" alt="Augmented Aviation logo">
+    </div>
     <nav>
       <a href="#features">Features</a>
       <a href="#about">About</a>
@@ -103,23 +105,27 @@
   <section class="hero">
     <h1>Elevate Training.<br />Enhance Safety.<br />Fly Smarter.</h1>
     <button class="cta">Join the Beta</button>
-    <p>Augmented Aviation empowers Cirrus pilots and student aviators with AI-driven tools for smarter, safer flight training. From performance planning to ATC mastery, our intelligent copilot is built to elevate your training at every phase.</p>
+    <p>Augmented Aviation is redefining how pilots train, prepare, and fly — with an expanding suite of AI-powered capabilities. From our intelligent Copilot assistant to future tools for flight data analysis, video debriefing, and scenario-based learning, we're creating a smarter, more connected aviation training experience. Join our beta to help shape what comes next.</p>
   </section>
 
   <section class="features" id="features">
     <div class="feature">
+      <img src="assets/icon1_flight_planning.png" alt="Flight Planning Icon">
       <h3>Flight Planning</h3>
       <p>Get smart weight & balance and performance calculations tailored to your aircraft and environment.</p>
     </div>
     <div class="feature">
+      <img src="assets/icon2_atc_comm.png" alt="ATC Communication Icon">
       <h3>ATC Communication</h3>
       <p>Practice real-world radio calls with our AI ATC simulator and phraseology coach.</p>
     </div>
     <div class="feature">
+      <img src="assets/icon3_weather.png" alt="Weather Icon">
       <h3>Weather Support</h3>
       <p>Interpret METARs, TAFs, and radar with assistance for go/no-go decision-making.</p>
     </div>
     <div class="feature">
+      <img src="assets/icon4_faa_prep.png" alt="FAA Prep Icon">
       <h3>FAA Prep</h3>
       <p>Reinforce your knowledge with test-style Q&A support and real-time AI explanations.</p>
     </div>
@@ -130,3 +136,4 @@
   </footer>
 </body>
 </html>
+
